@@ -7,70 +7,111 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-  <nav id="navbar">
-    <ul style="list-style-type: none; float:right">
-      <li style="display: inline;"><a href="#footer"> About</a></li>
-      <li style="display: inline;">Work</li>
-      <li style="display: inline;">Contact</li>
+<body class="fullpage loggeed-in sidebar-false">
+  <nav id="navbar" class="nav">
+    <ul class="nav-list">
+      <li><a href="#footer"></a> About</li>
+      <li>Work</li>
+      <li>Contact</li>
     </ul>
   </nav>
-  <div id="welcome-section">
-    <header>Hey I am Wazih and Rachid
-    </header>
-    <h1>We are a web Developer</h1>
+  <section id="welcome-section" class="welcome-section">
+    <h1>Hey I am WAZIH
+    </h1>
+    <p>A web Developer</p>
+  </section>
+  <section id="projects" class="projecs-section">
 
-  </div>
-  <div class="projects" id="projects">
-    <h1> These Are Some Of My Projects</h1>
-    <div id="div-Img" class="flex-container">
+    <h2 class="projects-section-header"> These Are Some Of My Projects</h2>
+    <div id="div-Img" class="projects-grid">
 
-      <div>
-        <figure class="project-tile">
-          <a href="https://www.musicinafrica.net/node/32998">
-            <img src="img/download.jpeg" alt="project one"></a>
-        </figure>
-        <figcaption>Calculator</figcaption>
-      </div>
-      <div>
-        <figure class="project-tile">
-          <img src="img/download.png" alt="Project two">
-        </figure>
-        <figcaption>Landing Page</figcaption>
-      </div>
-      <div>
-        <figure class="project-tile">
-          <img src="img/images (1).png" alt=" project three">
-        </figure>
-        <figcaption>Website</figcaption>
-      </div>
-      <div>
-        <figure>
-          <img src="img/images.png" alt=" project four">
-        </figure>
-        <figcaption>software</figcaption>
-      </div>
+
+
+      <a href="https://www.musicinafrica.net/node/32998" target="_blank" class="project project-tile">
+        <img class="project-image" src="/Users/Duke/Rachid-Wazih/Rachid-Wazih/img/tribute.jpg" alt="project">
+        <p class="project-tile"><span class="code">
+            <</span>"Tribute Page"<span class="code">/>
+          </span></p>
+      </a>
+
+      <a href="https://www.musicinafrica.net/node/32998" target="_blank" class="project project-tile">
+        <img class="project-image" src="/Users/Duke/Rachid-Wazih/Rachid-Wazih/img/random-quote-machine.png"
+          alt="project">
+        <p class="project-tile"><span class="code">
+            <</span>"Random Quote Machine "<span class=" code">/>
+          </span></p>
+      </a>
+
+      <a href="https://www.musicinafrica.net/node/32998" target="_blank" class="project project-tile">
+        <img class="project-image" src="/Users/Duke/Rachid-Wazih/Rachid-Wazih/img/calc.png" alt="project">
+        <p class="project-tile"><span class="code">
+            <</span>"JavaScript Calculator"<span class="code">/>
+          </span></p>
+      </a>
+
+      <a href="https://www.musicinafrica.net/node/32998" target="_blank" class="project project-tile">
+        <img class="project-image" src="/Users/Duke/Rachid-Wazih/Rachid-Wazih/img/map.jpg" alt="project">
+        <p class="project-tile"><span class="code">
+            <</span>" Map Data Across the Globe "<span class=" code">/>
+          </span></p>
+      </a>
+
+
+      <a href="https://www.musicinafrica.net/node/32998" target="_blank" class="project project-tile">
+        <img class="project-image" src="/Users/Duke/Rachid-Wazih/Rachid-Wazih/img/wiki.png" alt="project">
+        <p class="project-tile"><span class="code">
+            <</span>"Wikipedia Viewer"<span class="code">/>
+          </span></p>
+      </a>
+
+      <a href="https://www.musicinafrica.net/node/32998" target="_blank" class="project project-tile">
+        <img class="project-image" src="/Users/Duke/Rachid-Wazih/Rachid-Wazih/img/tic-tac-toe.png" alt="project">
+        <p class="project-tile"><span class="code">
+            <</span>"Tic Tac Toe Game"<span class="code">/>
+          </span></p>
+      </a>
+
+
+
+
 
     </div>
-    <button hrf="#">See All</button>
-  </div id="contact">
-  <div>
-    <h1> Let's Work Together</h1>
-    <p>How do you like your coffee</p>
-    <div class="social-media">
-      <img class="icon" src="img/icons/iconfinder_1_Linkedin_unofficial_colored_svg_5296501.png" alt="linkin">
-      <img class="icon" src="img/icons/iconfinder_1_Twitter_colored_svg_5296514.png " alt="twitter">
-      <img class="icon" src="img/icons/instagram.png" alt="instagram">
-      <img class="icon" src="img/icons/whats.png" alt="whatsapp" alt="whatsapp">
+    <a hrf="https://www.youtube.com/channel/UCsAQsMW54wU7G_3hiD2dWgA?view_as=subscriber" class="btn btn-show-all"
+      target="_blank">"See All" <i class="fas fa-chevron-right">::before </i></a>
+
+  </section>
+  <section id="contact" class="contact-section">
+    <div class="contact-section-header">
+      <h2> Let's Work Together</h2>
+      <p>How do you like your coffee</p>
     </div>
-  </div>
+    <div class="contact-links">
+      <a href="https://facebook.com/wazihgod" target="_blank" class="btn contact-details">
+        <i class="fab fa-facebook-square">::before</i>" Facebook"</a>
+
+      <a href="tel:+237677689422" target="_blank" class="btn contact-details">
+        <i class="fab fa-fa-mobile-all">::before</i>" Call Me"</a>
+
+      <a id="profile-link" href="https://github.com/wazih237" target="_blank" class="btn contact-details">
+        <i class="fab fa-github">::before</i>" Github"</a>
+
+      <a href="https://twitter.com/wazihgod" target="_blank" class="btn contact-details">
+        <i class="fab fa-twitter">::before</i>" Twitter"</a>
+
+      <a href="mailto:wazih237@gmail.com" target="_blank" class="btn contact-details">
+        <i class="fab fa-at">::before</i>" Send a Mail"</a>
+    </div>
+
+  </section>
   <footer id="footer">
-    <ul>
-      <li style=" float: left; list-style-type: none;">This is just a fake portfolio. All the projects and contact
-        details given are not real.
-      </li>
-      <li style="float: right; list-style-type: none;">© Created for Microverse</li>
-    </ul>
+    <p>" **This is just a fake portfolio. All the projects and contact
+      details given are not real.
+      "
+    </p>
+    <p>" © Created for <a
+        href="https://www.google.com/search?q=wazih&oq=wazih&aqs=chrome..69i57j46j0l4j69i60l2.3040j0j4&sourceid=chrome&ie=UTF-8"
+        target="_blank">"WAZIH "<i class="fab fa-free-code-camp">::before</i></a> "</p>
+
   </footer>
 
 
@@ -78,7 +119,7 @@
 
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-  <p>Hello World We are software Developers.</p>
+
   <script src="js/index.js"></script>
 </body>
 
