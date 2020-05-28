@@ -105,6 +105,9 @@ img {
 .nav-list {
     display: flex;
     margin-right: 2rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
 }
 
 @media (max-width: 28.75em) {
@@ -114,17 +117,23 @@ img {
 
     .nav-list {
         margin: 0 1rem;
+
     }
 }
 
 .nav-list a {
     display: block;
     font-size: 2.2rem;
-    padding: 2rem;
+    /*padding: 2rem */
+    ;
 }
 
 .nav-list a:hover {
     background: var(--main-blue);
+}
+
+nav li {
+    padding-right: 20px;
 }
 
 /* Welcome section */
@@ -160,6 +169,17 @@ img {
     margin: 0 auto 6rem auto;
     border-bottom: 0.2rem solid var(--main-white);
 }
+
+p {
+    text-align: center;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
 
 @media (max-width: 28.75em) {
     .projects-section-header {
@@ -218,6 +238,7 @@ img {
     display: inline-block;
     padding: 1rem 2rem;
     border-radius: 2px;
+    cursor: pointer;
 }
 
 .btn-show-all {
@@ -319,4 +340,9 @@ footer i {
         flex-direction: column;
         text-align: center;
     }
+}
+
+.btn-show-all {
+    margin-left: 550px;
+    margin-bottom: 50px;
 }
